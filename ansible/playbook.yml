@@ -1,0 +1,7 @@
+---
+- name: Deploy jenkins
+  hosts: all
+  tasks:
+    - name: Task to deploy jenkins
+      debug:
+        msg: "Deploying jenkins to Jenkins env."
