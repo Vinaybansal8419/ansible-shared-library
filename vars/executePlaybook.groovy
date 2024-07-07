@@ -1,4 +1,4 @@
 
 def call(String playbookPath) {
-    ansiblePlaybook playbook:./ansible
+    ansiblePlaybook playbook:./home/vagrant/ansible-shared-library
 }
